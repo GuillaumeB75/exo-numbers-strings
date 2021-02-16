@@ -4,6 +4,8 @@ let nb3 = 16
 let nb4 = 5005
 let nb5 = 52390903
 
+/* résultats brouillons, trouver une autre méthode...*/
+
 console.log(nb1.toString(2))
 console.log(nb1.toString(8))
 console.log(nb1.toString(16))

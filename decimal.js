@@ -13,3 +13,10 @@ console.log(nb4.toString(2))
 console.log(nb5.toString(2))
 console.log(nb6.toString(2))
 console.log(nb7.toString(2))
+
+/* méthode idéale aperçue à apprendre */
+
+let tableau = [0x123, 0123, 0b10011001, 0xdeadbeef, 0xea7beef, 0b1111111111111111, 0777]
+
+for (let i = 0; i < tableau.length; i++)
+  console.log(tableau[i].toString(2))
