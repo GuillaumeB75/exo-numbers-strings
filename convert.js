@@ -1,23 +1,30 @@
-let nb1 = 10
-let nb2 = 15
-let nb3 = 16
-let nb4 = 5005
-let nb5 = 52390903
 
-/* résultats brouillons, trouver une autre méthode...*/
+let nb = 10
+console.log(`${nb} est égal à ${nb.toString(2)} en binaire`)
+console.log(`${nb} est égal à ${nb.toString(8)} en octal`)
+console.log(`${nb} est égal à ${nb.toString(16)} en hexadecimal`)
+console.log('\n')
 
-console.log(nb1.toString(2))
-console.log(nb1.toString(8))
-console.log(nb1.toString(16))
-console.log(nb2.toString(2))
-console.log(nb2.toString(8))
-console.log(nb2.toString(16))
-console.log(nb3.toString(2))
-console.log(nb3.toString(8))
-console.log(nb3.toString(16))
-console.log(nb4.toString(2))
-console.log(nb4.toString(8))
-console.log(nb4.toString(16))
-console.log(nb5.toString(2))
-console.log(nb5.toString(8))
-console.log(nb5.toString(16))
+nb = 15
+console.log(`${nb} est égal à ${nb.toString(2)} en binaire`)
+console.log(`${nb} est égal à ${nb.toString(8)} en octal`)
+console.log(`${nb} est égal à ${nb.toString(16)} en hexadecimal`)
+console.log('\n')
+
+nb = 16
+console.log(`${nb} est égal à ${nb.toString(2)} en binaire`)
+console.log(`${nb} est égal à ${nb.toString(8)} en octal`)
+console.log(`${nb} est égal à ${nb.toString(16)} en hexadecimal`)
+console.log('\n')
+
+nb = 5005
+console.log(`${nb} est égal à ${nb.toString(2)} en binaire`)
+console.log(`${nb} est égal à ${nb.toString(8)} en octal`)
+console.log(`${nb} est égal à ${nb.toString(16)} en hexadecimal`)
+console.log('\n')
+
+nb = 52390903
+console.log(`${nb} est égal à ${nb.toString(2)} en binaire`)
+console.log(`${nb} est égal à ${nb.toString(8)} en octal`)
+console.log(`${nb} est égal à ${nb.toString(16)} en hexadecimal`)
+console.log('\n')
